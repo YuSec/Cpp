@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverrideFinal", "OverrideFi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Friend", "Friend\Friend.vcxproj", "{027645D9-3747-4F86-A117-BB57007923F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Const", "Const\Const.vcxproj", "{08D45170-0C86-47DD-83A0-CFFE000B5384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{027645D9-3747-4F86-A117-BB57007923F8}.Release|x64.Build.0 = Release|x64
 		{027645D9-3747-4F86-A117-BB57007923F8}.Release|x86.ActiveCfg = Release|Win32
 		{027645D9-3747-4F86-A117-BB57007923F8}.Release|x86.Build.0 = Release|Win32
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Debug|x64.ActiveCfg = Debug|x64
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Debug|x64.Build.0 = Debug|x64
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Debug|x86.ActiveCfg = Debug|Win32
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Debug|x86.Build.0 = Debug|Win32
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Release|x64.ActiveCfg = Release|x64
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Release|x64.Build.0 = Release|x64
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Release|x86.ActiveCfg = Release|Win32
+		{08D45170-0C86-47DD-83A0-CFFE000B5384}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
