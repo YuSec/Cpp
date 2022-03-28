@@ -37,6 +37,19 @@ void add_onevec_to_othervec() {
     v3.insert(v3.end(), v2.begin(), v2.end());
 }
 
+void judge_vector_equal() {
+    std::vector<int> v0, v1, v2;
+    v0.push_back(0);
+    v0.push_back(1);
+    v1.push_back(0);
+    v1.push_back(1);
+    v2.push_back(0);
+    v2.push_back(0);
+    bool is_ok = false;
+    is_ok = std::is_permutation(v0.begin(), v0.begin() + v0.size(), v1.begin());
+    is_ok = std::is_permutation(v0.begin(), v0.begin() + v0.size(), v2.begin());
+}
+
 int main()
 {
     ////remove the element of the vector
@@ -70,6 +83,7 @@ int main()
     ////v2.assign(v.begin(), v.end());
     ////copy of the most fast
     //v.swap(v2);
+    judge_vector_equal();
     add_onevec_to_othervec();
     vec_double_arr();
     vector_to_array();
