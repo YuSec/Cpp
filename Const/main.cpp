@@ -1,4 +1,6 @@
-﻿class A
+﻿#include <map>
+
+class A
 {
 public:
     A();
@@ -29,7 +31,16 @@ double A::get_double_var()
     return ++double_var_;
 }
 
+void test_const_map() {
+    std::map<int, int> test;
+    test.insert(std::make_pair(1, 3));
+    const std::map<int, int> test_const;
+    test = test_const;
+    //auto it = test_const[1];//can not use [] for const variable
+}
+
 int main() {
+    test_const_map();
     A a;
     int int_var;
     double double_var;
